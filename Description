@@ -1,0 +1,13 @@
+In this project I take a VGG16 layer for visualization. VGG-16 is a convolutional neural network which is 16 layers deep.
+
+Then I have created an a 3D image randomly. Our idea is to feed this image into the CNN layers and see what filters the CNN will use for filtering these image in each layer.
+
+Normalization is usually done in all image processing tasks as it reduces complexity and time taken for processing images and provides uniformity.
+
+We have used a gradient ascent approach to visualize the filter activation. 
+
+It initializes an image and adjusts it using gradients to maximize the output of a particular filter in a CNN layer.
+
+That all needed. Now feed the image and visualize each of the layers.
+
+You will be amazed how these filters look like. Extend this project to any other network you want to visualize.
